@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+$font: 'Inter', sans-serif;
+$darkGrayishBlue: hsl(228, 12%, 44%);
+$limeGreen: hsl(163, 72%, 41%);
+$brightRed: hsl(356, 69%, 56%);
+$desaturatedBlue: hsl(228, 34%, 66%);
+
+
+body {
+    font-family: $font;
+}
+
+.darkOverviewText {
+    color: #fff !important;
+}
+
+.title {
+    font-weight: 700;
+    margin: 10%;
+    font-size: 30px;
+    margin-bottom: 0;
+    @include media-breakpoint-up(lg){
+        margin-left: 13%;
+        font-size: 28px;
+        margin-top: 3%;
+        margin-bottom: 1%;
+    }
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-weight: 700;
+    color: $darkGrayishBlue;
+    @include media-breakpoint-up(lg){
+        margin-left: 13%;
+        margin-top: 0;
+
+    }
+}
+
+.darkText {
+    font-weight: 700;
+    color: $darkGrayishBlue;
+    font-size: 20px;
+    margin-top: 7%;
+    @include media-breakpoint-up(lg){
+        margin-top: 0;
+    }
+}
+
+.textFacebook {
+    color: $darkGrayishBlue;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    @include media-breakpoint-up(lg){
+        font-size: 14px;
+    }
+}
+
+.facebookNumber {
+    font-weight: 700;
+    font-size: 70px;
+    margin-top: 10%;
+    @include media-breakpoint-up(lg){
+        font-size: 60px;
+    }
+}
+
+.followerText {
+    letter-spacing: 0.5rem;
+    color: $darkGrayishBlue;
+    font-size: 14px;
+
+}
+
+.day {
+    color: $limeGreen;
+    font-size: 16px;
+    //margin-top: 5%;
+    font-weight: 700;
+    @include media-breakpoint-up(lg){
+        font-size: 14px;
+    }
+
+}
+
+.dayDown {
+    color: $brightRed;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.overTitle {
+    margin: 10%;
+    font-size: 30px;
+    font-weight: 700;
+    color: $darkGrayishBlue;
+    @include media-breakpoint-up(lg){
+        margin: 5%;
+        margin-left: 0;
+    }
+}
+
+.pageViews {
+    margin-left: 20%;
+    margin-top: 20%;
+    font-size: 22px;
+    font-weight: 700;
+    color: $darkGrayishBlue;
+    @include media-breakpoint-up(lg){
+        font-size: 14px;
+        margin-top: 15%;
+    }
+}
+
+.numberPage {
+    margin-left: 10%;
+    //margin-top: 20%;
+    justify-self: start;
+    font-size: 42px;
+    font-weight: 700;
+    @include media-breakpoint-up(lg){
+        font-size: 26px;
+    }
+
+}
+
+.percent {
+    font-weight: 700;
+    margin-top: 1%;
+    color: $limeGreen;
+    font-size: 20px;
+    @include media-breakpoint-up(lg){
+        font-size: 14px;
+    } 
+}
+
+.percentDown {
+    font-weight: 700;
+    margin-top: 1%;
+    color: $brightRed;
+    font-size: 20px;
+    @include media-breakpoint-up(lg){
+        font-size: 14px;
+    }
+}
